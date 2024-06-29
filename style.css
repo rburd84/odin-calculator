@@ -1,0 +1,32 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  border: 1px solid black;
+}
+
+.container div {
+  /* width: 110px; */
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+
+#screen {
+  border: none;
+  background: lightblue;
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: end;
+  padding-right: 0.4em;
+}
+
+.numbers,
+.operator,
+#clear,
+#equal {
+  border: 1px solid black;
+}

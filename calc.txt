@@ -1,0 +1,9 @@
+capture numbers 
+capture operators
+print to display
+store first captured number
+store captured operator
+use calculator function to perform proper operation with numbers
+clear display on clear button click
+display result on equal button click
+clear display after capturing first number
